@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7360DC402C05E42F007E6C3A /* SciflareTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7360DC3F2C05E42F007E6C3A /* SciflareTaskApp.swift */; };
+		7360DC422C05E42F007E6C3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7360DC412C05E42F007E6C3A /* ContentView.swift */; };
+		7360DC442C05E439007E6C3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7360DC432C05E439007E6C3A /* Assets.xcassets */; };
+		7360DC472C05E439007E6C3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7360DC462C05E439007E6C3A /* Preview Assets.xcassets */; };
+		7360DC4C2C05E439007E6C3A /* SciflareTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7360DC4A2C05E439007E6C3A /* SciflareTask.xcdatamodeld */; };
+		738FBE2E2C07018900886348 /* EmpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738FBE2D2C07018900886348 /* EmpModel.swift */; };
+		738FBE302C07031300886348 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738FBE2F2C07031300886348 /* MapView.swift */; };
+		73E8F65C2C061EFD0092A5B2 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E8F65B2C061EFD0092A5B2 /* Employee+CoreDataClass.swift */; };
+		73E8F6602C0620240092A5B2 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E8F65F2C0620240092A5B2 /* Employee+CoreDataProperties.swift */; };
+		73E8F6622C06204C0092A5B2 /* CRUDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E8F6612C06204C0092A5B2 /* CRUDViewModel.swift */; };
+		73E8F6672C0620FF0092A5B2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E8F6662C0620FF0092A5B2 /* CoreDataManager.swift */; };
+		73E8F6692C062B420092A5B2 /* DetailEmpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E8F6682C062B420092A5B2 /* DetailEmpView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7360DC3C2C05E42F007E6C3A /* SciflareTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SciflareTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7360DC3F2C05E42F007E6C3A /* SciflareTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciflareTaskApp.swift; sourceTree = "<group>"; };
+		7360DC412C05E42F007E6C3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7360DC432C05E439007E6C3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7360DC462C05E439007E6C3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7360DC4B2C05E439007E6C3A /* SciflareTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SciflareTask.xcdatamodel; sourceTree = "<group>"; };
+		738FBE2D2C07018900886348 /* EmpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpModel.swift; sourceTree = "<group>"; };
+		738FBE2F2C07031300886348 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		73E8F65B2C061EFD0092A5B2 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		73E8F65F2C0620240092A5B2 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		73E8F6612C06204C0092A5B2 /* CRUDViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDViewModel.swift; sourceTree = "<group>"; };
+		73E8F6662C0620FF0092A5B2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		73E8F6682C062B420092A5B2 /* DetailEmpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEmpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7360DC392C05E42F007E6C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7360DC332C05E42F007E6C3A = {
+			isa = PBXGroup;
+			children = (
+				7360DC3E2C05E42F007E6C3A /* SciflareTask */,
+				7360DC3D2C05E42F007E6C3A /* Products */,
+				738FBE322C070C0F00886348 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7360DC3D2C05E42F007E6C3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7360DC3C2C05E42F007E6C3A /* SciflareTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7360DC3E2C05E42F007E6C3A /* SciflareTask */ = {
+			isa = PBXGroup;
+			children = (
+				73E8F65A2C061EAF0092A5B2 /* App */,
+				73E8F6652C0620F00092A5B2 /* Utilities */,
+				73E8F6592C061EA20092A5B2 /* ViewModel */,
+				73E8F6582C061E9D0092A5B2 /* Model */,
+				73E8F6572C061E970092A5B2 /* View */,
+				7360DC432C05E439007E6C3A /* Assets.xcassets */,
+				7360DC4A2C05E439007E6C3A /* SciflareTask.xcdatamodeld */,
+				7360DC452C05E439007E6C3A /* Preview Content */,
+			);
+			path = SciflareTask;
+			sourceTree = "<group>";
+		};
+		7360DC452C05E439007E6C3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7360DC462C05E439007E6C3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		738FBE2B2C07016700886348 /* AppModel */ = {
+			isa = PBXGroup;
+			children = (
+				73E8F65B2C061EFD0092A5B2 /* Employee+CoreDataClass.swift */,
+				73E8F65F2C0620240092A5B2 /* Employee+CoreDataProperties.swift */,
+			);
+			path = AppModel;
+			sourceTree = "<group>";
+		};
+		738FBE2C2C07017500886348 /* UploadModel */ = {
+			isa = PBXGroup;
+			children = (
+				738FBE2D2C07018900886348 /* EmpModel.swift */,
+			);
+			path = UploadModel;
+			sourceTree = "<group>";
+		};
+		738FBE322C070C0F00886348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73E8F6572C061E970092A5B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7360DC412C05E42F007E6C3A /* ContentView.swift */,
+				73E8F6682C062B420092A5B2 /* DetailEmpView.swift */,
+				738FBE2F2C07031300886348 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73E8F6582C061E9D0092A5B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				738FBE2C2C07017500886348 /* UploadModel */,
+				738FBE2B2C07016700886348 /* AppModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E8F6592C061EA20092A5B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				73E8F6612C06204C0092A5B2 /* CRUDViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73E8F65A2C061EAF0092A5B2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7360DC3F2C05E42F007E6C3A /* SciflareTaskApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		73E8F6652C0620F00092A5B2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				73E8F6662C0620FF0092A5B2 /* CoreDataManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7360DC3B2C05E42F007E6C3A /* SciflareTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7360DC4F2C05E439007E6C3A /* Build configuration list for PBXNativeTarget "SciflareTask" */;
+			buildPhases = (
+				7360DC382C05E42F007E6C3A /* Sources */,
+				7360DC392C05E42F007E6C3A /* Frameworks */,
+				7360DC3A2C05E42F007E6C3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SciflareTask;
+			packageProductDependencies = (
+			);
+			productName = SciflareTask;
+			productReference = 7360DC3C2C05E42F007E6C3A /* SciflareTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7360DC342C05E42F007E6C3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7360DC3B2C05E42F007E6C3A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 7360DC372C05E42F007E6C3A /* Build configuration list for PBXProject "SciflareTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7360DC332C05E42F007E6C3A;
+			packageReferences = (
+			);
+			productRefGroup = 7360DC3D2C05E42F007E6C3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7360DC3B2C05E42F007E6C3A /* SciflareTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7360DC3A2C05E42F007E6C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7360DC472C05E439007E6C3A /* Preview Assets.xcassets in Resources */,
+				7360DC442C05E439007E6C3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7360DC382C05E42F007E6C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E8F6622C06204C0092A5B2 /* CRUDViewModel.swift in Sources */,
+				7360DC4C2C05E439007E6C3A /* SciflareTask.xcdatamodeld in Sources */,
+				7360DC422C05E42F007E6C3A /* ContentView.swift in Sources */,
+				7360DC402C05E42F007E6C3A /* SciflareTaskApp.swift in Sources */,
+				738FBE2E2C07018900886348 /* EmpModel.swift in Sources */,
+				73E8F65C2C061EFD0092A5B2 /* Employee+CoreDataClass.swift in Sources */,
+				73E8F6672C0620FF0092A5B2 /* CoreDataManager.swift in Sources */,
+				738FBE302C07031300886348 /* MapView.swift in Sources */,
+				73E8F6692C062B420092A5B2 /* DetailEmpView.swift in Sources */,
+				73E8F6602C0620240092A5B2 /* Employee+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7360DC4D2C05E439007E6C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7360DC4E2C05E439007E6C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7360DC502C05E439007E6C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SciflareTask/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs to access location data to find nearby cinemas";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App needs to access location data to find nearby cinemas";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs to access location data to find nearby cinemas";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.influx.SciflareTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7360DC512C05E439007E6C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SciflareTask/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs to access location data to find nearby cinemas";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App needs to access location data to find nearby cinemas";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs to access location data to find nearby cinemas";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.influx.SciflareTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7360DC372C05E42F007E6C3A /* Build configuration list for PBXProject "SciflareTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7360DC4D2C05E439007E6C3A /* Debug */,
+				7360DC4E2C05E439007E6C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7360DC4F2C05E439007E6C3A /* Build configuration list for PBXNativeTarget "SciflareTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7360DC502C05E439007E6C3A /* Debug */,
+				7360DC512C05E439007E6C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7360DC4A2C05E439007E6C3A /* SciflareTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7360DC4B2C05E439007E6C3A /* SciflareTask.xcdatamodel */,
+			);
+			currentVersion = 7360DC4B2C05E439007E6C3A /* SciflareTask.xcdatamodel */;
+			path = SciflareTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7360DC342C05E42F007E6C3A /* Project object */;
+}
